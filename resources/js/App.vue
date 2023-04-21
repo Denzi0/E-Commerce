@@ -1,5 +1,18 @@
 <template>
-    <h1>Hellow this is my projectsdfd</h1>
+    <Header />
 </template>
 
-<script></script>
+<script>
+import Header from "./components/Header.vue";
+
+export default {
+    data() {
+        return {
+            count: 0,
+        };
+    },
+    components: {
+        Header,
+    },
+};
+</script>
